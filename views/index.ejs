@@ -5,8 +5,8 @@
 <% } else { %>
         <% widgets.forEach(function(widget) { %>
             <section>
-                <h4><%= widget.description %></h4>
-                <h4><%= widget.quantity %></h4>
+                <h3><%= widget.description %></h3>
+                <p>Quantity: <%= widget.quantity %></p>
                 <form method="POST" action="/<%=widget.id%>/?_method=DELETE">
                     <input type="Submit" value="DELETE">
                 </form>
