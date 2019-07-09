@@ -1,5 +1,26 @@
 html, body {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
+section {
+  background-color: lightgray;
+  border-radius: 5px;
+  border-style: inset;
+  width: 40%;
+  margin: 2px auto;
+}
+
+form {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  height: 2em;
+  border-radius: 2px;
+  margin: 2px;
+}
